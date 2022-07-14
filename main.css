@@ -1,0 +1,54 @@
+.father{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 200px;
+    height: 350px;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 150px;
+}
+
+
+.icon{
+    position: absolute;
+    top:-60px;
+    background: white;
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.btn{
+    width: 70%;
+    height: 50px;
+    background: wheat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.btn:hover{
+    background: olive;
+    color: gold;
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+}
